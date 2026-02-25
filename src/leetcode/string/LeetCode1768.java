@@ -3,7 +3,7 @@ package leetcode.string;
 /* 두 문자열을 다루는 경우, 두 문자열의 길이가 서로 다를 경우 배열을 사용하게 되면 인덱싱을 다루기 쉽지 않다.
 따라서, 이 경우에는 StringBuilder 객체를 사용하면 쉽게 다룰 수 있다.*/
 
-class Leet1768 {
+class LeetCode1768 {
     public String mergeAlternately(String word1, String word2) {
         StringBuilder sb = new StringBuilder();
         int i =0, j = 0;
