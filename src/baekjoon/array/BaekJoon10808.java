@@ -1,33 +1,23 @@
 package baekjoon.array;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class BaekJoon10808 {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String s = br.readLine();
 
-    int[] insert(int idx, int num, int[] arr, int len){
-        int[] resArr = new int[len + 1];
+        int[] arr = new int[26];
 
-        for (int i = 0; i < idx; i++) {
-            resArr[i] = arr[i];
+        for(int i = 0; i < s.length(); i++) {
+            arr[s.charAt(i) - 'a']++;
         }
 
-        resArr[idx] = num;
-
-        for (int i = idx + 1; i <= len; i++) {
-            resArr[i] = arr[i - 1];
+        for (int j : arr) {
+            System.out.print(j + " ");
         }
 
-        return resArr;
-    }
-
-    int[] erase(int idx, int[] arr, int len){
-        int[] resArr = new int[len - 1];
-
-        for (int i = 0; i < idx; i++) {
-            resArr[i] = arr[i];
-        }
-        for (int i = idx; i < len - 1; i++) {
-            resArr[i] = arr[i + 1];
-        }
-
-        return resArr;
     }
 }
