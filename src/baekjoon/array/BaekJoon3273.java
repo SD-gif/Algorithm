@@ -50,3 +50,32 @@ public class BaekJoon3273 {
     }
 }
 
+/*
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int[] checkNum = new int[2000001];
+
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        int count = 0;
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt(); // 1 <= an <= 1000000 사이의 자연수가 저장
+        }
+
+        for(int i = 0; i < n; i++){
+            checkNum[arr[i]] = 1; // check[5, 12 , 7, 10, 9, 1, 2, 3, 11] = 1
+        }
+
+        int x = sc.nextInt();
+        for(int i = 0; i < x; i++) {
+            if(checkNum[i] == 1 && checkNum[x - i] == 1) count++; //
+        }
+
+        System.out.println(count/2);
+    }
+}
+ */
