@@ -22,7 +22,7 @@ import java.util.StringTokenizer;
 //
 // 시간복잡도: O(N) — 학생 수만큼 입력 + 12개 그룹 순회
 // 공간복잡도: O(1) — 고정 크기 배열(2×6) 사용
-public class BaekJoon13300 {
+public class BOJ_13300 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int[][] students = new int[2][6];

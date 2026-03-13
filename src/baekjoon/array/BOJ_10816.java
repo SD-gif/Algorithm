@@ -13,7 +13,7 @@ import java.util.StringTokenizer;
 //   - 음수 인덱스를 처리하기 위해 offset(10,000,000)을 더해 양수 인덱스로 변환
 //   - ex) 숫자 -5 → 인덱스 9,999,995 / 숫자 0 → 인덱스 10,000,000 / 숫자 5 → 인덱스 10,000,005
 //   - 조회 시 O(1)이므로 전체 시간복잡도: O(N + M)
-public class BaekJoon10816 {
+public class BOJ_10816 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 

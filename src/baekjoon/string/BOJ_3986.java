@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class BaekJoon3986 {
+public class BOJ_3986 {
     static int count = 0;
 
     public static void main(String[] args) throws IOException {

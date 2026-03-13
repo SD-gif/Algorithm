@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class BaekJoon2358 {
+public class BOJ_2358 {
     public static void main(String[] args) {
         // key = 좌표, value = 점의 개수
         Map<Integer, Integer> xCount = new HashMap<>();

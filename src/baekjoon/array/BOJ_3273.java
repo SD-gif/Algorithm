@@ -17,7 +17,7 @@ package baekjoon.array;
 
 import java.util.Scanner;
 
-public class BaekJoon3273 {
+public class BOJ_3273 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
